@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-from PIL.ImageColor import colormap
-
 
 def plot_mortality_trend(df):
     province_data = df[df['Geography.Type']=='Province']
